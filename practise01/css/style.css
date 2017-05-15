@@ -1,0 +1,13 @@
+body{
+	background: orange;
+}
+
+h1#heading {
+	background: green;
+	width: 30px;
+	text-align: center;
+}
+
+div{
+	background: blue;
+}
