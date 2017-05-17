@@ -1,0 +1,14 @@
+body{
+	background-color: orange;
+}
+
+div#circle{
+	background: white;
+	border-radius: 50px;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	justify-content: center;
+	color: black;
+	position: relative;
+}
