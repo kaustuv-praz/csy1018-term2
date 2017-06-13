@@ -1,6 +1,6 @@
 var num = [0];
-num[1] = 1; num[2] = 5; num[3] = 6;
-num[4] = 90; num[5] = 20; num[6] = 10;
+num[1] = 1; num[2] = 2; num[3] = 3;
+num[4] = 4; num[5] = 5; num[6] = 6;
 
 var intervalStart;
 var intervalStop;
@@ -47,7 +47,7 @@ function stopRoll(){
 function diceFace(){
 	currentDice = this;
 
-	intervalStart = setInterval(roll, 80);
+	intervalStart = setInterval(roll, 80);	
 	intervalStop = setInterval(stopRoll, 2000);
 
 
